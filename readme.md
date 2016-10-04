@@ -1,11 +1,14 @@
 # Realex / PlumbNation Checkout CSS and Markup
 
-Don't edit this tag.
+Desktop / tablet, and mobile markup and CSS.
+
+Don't edit this tag:
 
 ```
 <hpp:body />
 ```
 
+## File Structure
 ```
 templates/
   ├── desktopresources/
