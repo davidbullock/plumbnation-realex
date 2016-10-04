@@ -1,6 +1,6 @@
 # Realex / PlumbNation Checkout CSS and Markup
 
-Don't edit this class tag.
+Don't edit this tag.
 
 ```
 <hpp:body />
