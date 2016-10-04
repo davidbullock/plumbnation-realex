@@ -6,6 +6,7 @@ Don't edit this tag.
 <hpp:body />
 ```
 
+```
 templates/
   ├── desktopresources/
   │   ├── ..assets
@@ -15,3 +16,4 @@ templates/
   │   └── realex-checkout-mobile.css
   ├── desktop.html
   └── mobile.html
+  ```
