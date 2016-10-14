@@ -12,7 +12,7 @@ Don't edit this tag:
 
 ## File Structure
 ```
-templates/
+plumbnation-realex/
   ├── desktopresources/
   │   ├── ..assets
   │   └── realex-checkout-desktop.css
