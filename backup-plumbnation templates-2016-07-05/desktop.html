@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+<title>Checkout</title>
+<link rel="icon" type="image/png" href="desktopresources/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="desktopresources/favicon-16x16.png" sizes="16x16">
+<link rel="stylesheet" type="text/css" href="desktopresources/realex-checkout-desktop.css">
+</head>
+<body>
+    <div id="header" class="c-header c-header--checkout">
+        <div class="container">
+            <div class="c-header__actions">
+                <div class="c-header__home">
+                    <div class="c-header__brand c-header__container disabled">
+                        <div class="text-center">
+                            <i class="icon-plumbnation-bg img"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="page-wrapper" class="container">
+        <div id="checkout" class="row-fluid">
+            <div class="span10">
+                <div class="checkout-header box-container box-container--merge row-fluid">
+                    <div class="span6">
+                        <h1 class="title">Checkout</h1>
+                    </div>
+                </div>
+                <div id="checkout-steps" class="checkout-steps box-container">
+                    <div class="row-fluid">
+                        <div class="step">
+                            <p>Contact</p>
+                        </div>
+                        <div class="step">
+                            <p>Billing</p>
+                        </div>
+                        <div class="step">
+                            <p>Delivery</p>
+                        </div>
+                        <div class="step">
+                            <p>Confirm</p>
+                        </div>
+                        <div class="step current">
+                            <p>Payment</p>
+                        </div>
+                    </div>
+                    <div class="progress hidden-phone">
+                        <div class="bar bar-success" style="width: 80%"></div>
+                        <div class="bar bar-info" style="width: 20%;"></div>
+                    </div>
+                    <div class="relative">
+                        <div class="btn step-1 btn-success">1</div>
+                        <div class="btn step-2 btn-success">2</div>
+                        <div class="btn step-3 btn-success">3</div>
+                        <div class="btn step-4 btn-success">4</div>
+                        <div class="btn step-5 btn-info">5</div>
+                    </div>
+                </div>
+                <div id="realex-wrapper">
+                    <div class="box-container">
+                        <hpp:body />
+                    </div>
+                </div>
+            </div>
+            <div class="span2">
+                <ul id="checkout-trust">
+                    <li class="trust">
+                        <span><i class="icon-mcafee img"></i></span>
+                    </li>
+                    <li class="trust">
+                        <span><i class="icon-norton img"></i></span>
+                    </li>
+                    <li class="trust">
+                        <span><i class="icon-mastercard-securecode img"></i></span>
+                    </li>
+                    <li class="trust">
+                        <span><i class="icon-verified-by-visa img"></i></span>
+                    </li>
+                    <li class="trust">
+                        <span><i class="icon-trustpilot img"></i></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="push"></div>
+    </div>
+    <div id="bottom" class="footer">
+        <div class="footer-head">
+            <div class="container">
+                <div class="row-fluid">
+                    <ul class="unstyled">
+                        <li>
+                            <i class="icon-mastercard-securecode img" title="Secure payments with MasterCard SecureCode"></i>
+                        </li>
+                        <li>
+                            <i class="icon-verified-by-visa img" title="Secure payments with Verified by Visa"></i>
+                        </li>
+                        <li>
+                            <i class="icon-mastercard img" title="We accept MasterCard"></i>
+                        </li>
+                        <li>
+                            <i class="icon-visa img" title="We accept Visa"></i>
+                        </li>
+                        <li>
+                            <i class="icon-paypal img" title="We accept PayPal."></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-tail">
+            <div class="container">
+                <p><small>&copy; PlumbNation Limited. All rights reserved.</small></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
