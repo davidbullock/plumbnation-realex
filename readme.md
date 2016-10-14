@@ -1,8 +1,8 @@
-# Realex / PlumbNation Checkout CSS and Markup
+# PlumbNation Realex Checkout CSS and Markup
 
 https://davidbullock.github.io/plumbnation-realex/
 
-Desktop / tablet, and mobile markup and CSS.
+Desktop / tablet, and mobile markup and CSS for PlumbNation Realex checkout.
 
 Don't edit this tag:
 
